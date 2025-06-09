@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
@@ -14,6 +13,160 @@ const CourseMaterialPage = () => {
           6-Month Comprehensive Curriculum
         </p>
       </div>
+
+      {/* Why You Need This Course */}
+      <section className="mb-12 print:mb-8">
+        <h2 className="text-2xl font-bold mb-6 print:text-xl">🎯 Why You Need This Course</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 print:gap-4">
+          <Card className="print:border print:shadow-none">
+            <CardContent className="p-6 print:p-4">
+              <h3 className="font-semibold mb-3">💼 Industry Demand</h3>
+              <p className="text-sm text-muted-foreground">Full-stack developers are among the most sought-after professionals with average salaries ranging from $70,000 to $120,000+ annually.</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="print:border print:shadow-none">
+            <CardContent className="p-6 print:p-4">
+              <h3 className="font-semibold mb-3">🚀 Career Flexibility</h3>
+              <p className="text-sm text-muted-foreground">Work as a freelancer, join startups, work for large corporations, or build your own products - the possibilities are endless.</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="print:border print:shadow-none">
+            <CardContent className="p-6 print:p-4">
+              <h3 className="font-semibold mb-3">🌐 Future-Proof Skills</h3>
+              <p className="text-sm text-muted-foreground">Learn modern technologies that are in high demand and will remain relevant for years to come.</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="print:border print:shadow-none">
+            <CardContent className="p-6 print:p-4">
+              <h3 className="font-semibold mb-3">💡 Problem Solving</h3>
+              <p className="text-sm text-muted-foreground">Develop critical thinking and problem-solving skills that are valuable in any industry.</p>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* What Makes Us Special */}
+      <section className="mb-12 print:mb-8">
+        <h2 className="text-2xl font-bold mb-6 print:text-xl">⭐ What Makes Us Special</h2>
+        <div className="space-y-4">
+          <Card className="print:border print:shadow-none">
+            <CardContent className="p-6 print:p-4">
+              <h3 className="font-semibold mb-3 flex items-center">
+                <span className="mr-2">👨‍🏫</span>
+                Expert Instructors with Industry Experience
+              </h3>
+              <p className="text-sm text-muted-foreground">Our instructors are working professionals from top tech companies with 5+ years of real-world experience.</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="print:border print:shadow-none">
+            <CardContent className="p-6 print:p-4">
+              <h3 className="font-semibold mb-3 flex items-center">
+                <span className="mr-2">📚</span>
+                Structured Learning Path
+              </h3>
+              <p className="text-sm text-muted-foreground">Our curriculum is carefully designed to build knowledge progressively, ensuring you master each concept before moving forward.</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="print:border print:shadow-none">
+            <CardContent className="p-6 print:p-4">
+              <h3 className="font-semibold mb-3 flex items-center">
+                <span className="mr-2">🛠️</span>
+                Hands-On Learning Approach
+              </h3>
+              <p className="text-sm text-muted-foreground">70% practical coding, 30% theory. Build real projects from day one and graduate with a portfolio that impresses employers.</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="print:border print:shadow-none">
+            <CardContent className="p-6 print:p-4">
+              <h3 className="font-semibold mb-3 flex items-center">
+                <span className="mr-2">🏆</span>
+                Job Placement Assistance
+              </h3>
+              <p className="text-sm text-muted-foreground">Resume building, interview preparation, and connections with our hiring partner network to help you land your first tech job.</p>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Support & Learning Format */}
+      <section className="mb-12 print:mb-8">
+        <h2 className="text-2xl font-bold mb-6 print:text-xl">🤝 Comprehensive Support System</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 print:gap-4">
+          <Card className="print:border print:shadow-none">
+            <CardHeader className="print:pb-2">
+              <CardTitle className="text-lg flex items-center">
+                <span className="mr-2">❓</span>
+                Doubt Clearing Sessions
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="print:pt-0">
+              <ul className="text-sm space-y-2 text-muted-foreground">
+                <li>• Daily 1-hour doubt clearing sessions</li>
+                <li>• Live Q&A with instructors</li>
+                <li>• No question is too small or too big</li>
+                <li>• Recorded sessions for later review</li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card className="print:border print:shadow-none">
+            <CardHeader className="print:pb-2">
+              <CardTitle className="text-lg flex items-center">
+                <span className="mr-2">👥</span>
+                Group Discussions
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="print:pt-0">
+              <ul className="text-sm space-y-2 text-muted-foreground">
+                <li>• Weekly group problem-solving sessions</li>
+                <li>• Peer-to-peer learning opportunities</li>
+                <li>• Code review sessions with classmates</li>
+                <li>• Team projects and collaboration</li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card className="print:border print:shadow-none">
+            <CardHeader className="print:pb-2">
+              <CardTitle className="text-lg flex items-center">
+                <span className="mr-2">🎯</span>
+                One-on-One Mentoring
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="print:pt-0">
+              <ul className="text-sm space-y-2 text-muted-foreground">
+                <li>• Bi-weekly personal mentoring sessions</li>
+                <li>• Customized learning plans</li>
+                <li>• Career guidance and goal setting</li>
+                <li>• Personal project feedback</li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card className="print:border print:shadow-none">
+            <CardHeader className="print:pb-2">
+              <CardTitle className="text-lg flex items-center">
+                <span className="mr-2">💬</span>
+                24/7 Community Support
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="print:pt-0">
+              <ul className="text-sm space-y-2 text-muted-foreground">
+                <li>• Active Discord/Slack community</li>
+                <li>• Peer support and networking</li>
+                <li>• Alumni mentorship program</li>
+                <li>• Study groups and coding challenges</li>
+              </ul>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
 
       {/* Program Overview */}
       <section className="mb-12 print:mb-8">
