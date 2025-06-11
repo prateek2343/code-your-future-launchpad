@@ -1,5 +1,6 @@
 
 import AboutUsSection from "@/components/course/AboutUsSection";
+import CoursesOfferedSection from "@/components/course/CoursesOfferedSection";
 import WhyNeedCourseSection from "@/components/course/WhyNeedCourseSection";
 import WhatMakesSpecialSection from "@/components/course/WhatMakesSpecialSection";
 import SupportSystemSection from "@/components/course/SupportSystemSection";
@@ -23,6 +24,7 @@ const CourseMaterialPage = () => {
       </div>
 
       <AboutUsSection />
+      <CoursesOfferedSection />
       <WhyNeedCourseSection />
       <WhatMakesSpecialSection />
       <SupportSystemSection />
